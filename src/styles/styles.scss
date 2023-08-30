@@ -1,17 +1,5 @@
-$mTop: 0 auto;
-$bc: #c2c2c2;
-$padding: 30px;
-$f-size: 2.3em;
-
-
-// Mixin
-
-@mixin max ($color, $fWeight){
-  font-size: 1$f-size;
-  font-weight: $fWeight;
-  color: $color;
-}
-
+@import "mixin";
+@import "variables";
 
 .centered_block {
   width: 200px;
@@ -21,23 +9,17 @@ $f-size: 2.3em;
   border-radius: 20px;
 
 
-
   ul {
     list-style: none;
-
-
     li {
   color: brown;
       a {
-        //color: green;
         text-decoration: none;
-        @include max(red, bold);
+        @include max(orange, bold);
       }
     }
   }
-
   a {
     text-decoration: none;
-    @include max(green, 600);
   }
 }
