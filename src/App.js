@@ -4,6 +4,16 @@
 export const App = () => {
   return (
     <div>
+      <div id="grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <a href="#">Link 1</a>
       <div className="centered_block">
         <ul>
