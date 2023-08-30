@@ -14,7 +14,7 @@
     color: $link;
 
     &:hover {
-      color: $hover;
+      color:  lighten(gold, 40%);;
     }
 
     &:active {
@@ -24,3 +24,17 @@
 }
 
 @include maxP(blue, green, red, purple);
+
+
+@mixin grid($cols, $margin) {
+ float: right;
+  background-color: cadetblue;
+  margin-right: $margin;
+  margin-bottom: $margin;
+  height: 150px;
+  width: (100% - ($cols - 3) + $margin / $cols);
+
+  &:nth-child(#{$cols}n) {
+  margin-left: 0;
+}
+}
