@@ -15,6 +15,7 @@ $widthP: 900px;
   width: 200px;
   height: 200px;
   margin: $margin-All;
+  border-radius: 50%;
 }
 
 .one {
@@ -22,9 +23,9 @@ $widthP: 900px;
 }
 
 .two {
-  background-color: rebeccapurple;
+  background-color: purple;
 }
 
 .three {
-  background-color: red;
+  background-color: yellow;
 }
