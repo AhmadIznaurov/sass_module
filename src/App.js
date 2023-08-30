@@ -4,6 +4,7 @@
 export const App = () => {
   return (
     <div>
+      <a href="#">Link 1</a>
       <div className="centered_block">
         <ul>
           <li><a href="">Element One</a></li>
@@ -14,6 +15,8 @@ export const App = () => {
           <li>Element Six</li>
         </ul>
         <a href="">Empty link</a>
+    <br/>
+        <a href="">Link 2</a>
       </div>
     </div>
   );

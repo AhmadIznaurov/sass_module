@@ -1,0 +1,26 @@
+@import "variables";
+
+// Mixin
+@mixin max ($color, $fWeight){
+  font-size: 1$f-size;
+  font-weight: $fWeight;
+  color: $color;
+}
+
+// Псевдоклассы и импортирование данных
+
+@mixin maxP ($link, $hover, $active, $visited) {
+  a {
+    color: $link;
+
+    &:hover {
+      color: $hover;
+    }
+
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+@include maxP(blue, green, red, purple);
