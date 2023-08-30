@@ -3,10 +3,18 @@
 
 export const App = () => {
   return (
-    <div className='parent'>
-      <div className='block one'>1</div>
-      <div className='block two'>2</div>
-      <div className='block three'>3</div>
+    <div>
+      <div className="centered_block">
+        <ul>
+          <li><a href="">Element One</a></li>
+          <li>Element Two</li>
+          <li>Element Three</li>
+          <li>Element Four</li>
+          <li>Element Five</li>
+          <li>Element Six</li>
+        </ul>
+        <a href="">Empty link</a>
+      </div>
     </div>
   );
 }

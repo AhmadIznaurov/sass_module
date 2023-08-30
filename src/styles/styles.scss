@@ -1,31 +1,32 @@
-$bgColor-one: greenyellow;
-$margin-All: 50px 0 50px 0;
-$parent: flex;
-$jc: space-between;
-$widthP: 900px;
-
-.parent {
-  display: $parent;
-  justify-content: $jc;
-  width: $widthP;
-}
+$mTop: 0 auto;
+$bc: #c2c2c2;
+$padding: 30px;
 
 
-.block {
+
+
+.centered_block {
   width: 200px;
-  height: 200px;
-  margin: $margin-All;
-  border-radius: 50%;
-}
+  margin: $mTop;
+  background-color: $bc;
+  padding: $padding;
+  border-radius: 20px;
 
-.one {
-  background-color: $bgColor-one;
-}
 
-.two {
-  background-color: purple;
-}
 
-.three {
-  background-color: yellow;
+  ul {
+    list-style: none;
+
+    li {
+  color: brown;
+      a {
+        color: green;
+        text-decoration: none;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
