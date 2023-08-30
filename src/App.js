@@ -1,21 +1,12 @@
-
-
+import { Grid } from './styles/module/Grid';
+import styles from './styles/styles.module.scss';
 
 export const App = () => {
   return (
     <div>
-      <div id="grid">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+      <Grid />
       <a href="#">Link 1</a>
-      <div className="centered_block">
+      <div className={styles.centered_block}>
         <ul>
           <li><a href="">Element One</a></li>
           <li>Element Two</li>
